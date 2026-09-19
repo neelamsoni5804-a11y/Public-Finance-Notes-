@@ -1,0 +1,356 @@
+/* ===============================
+   Dr. Neelam Soni - Public Finance
+   Academic Website Style
+================================*/
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+
+    font-family:
+    "Segoe UI",
+    "Roboto",
+    Arial,
+    sans-serif;
+
+    background:#f6f8fc;
+    color:#222;
+    line-height:1.6;
+
+}
+
+
+/* Main Container */
+
+.container{
+
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+
+}
+
+
+
+/* ===============================
+      Header Section
+================================*/
+
+header{
+
+    background:
+    linear-gradient(
+    135deg,
+    #082a4a,
+    #124d78
+    );
+
+    color:white;
+
+    padding:70px 20px;
+
+    text-align:center;
+
+    border-bottom:5px solid #c9a227;
+
+}
+
+
+header h1{
+
+    font-size:44px;
+
+    font-weight:700;
+
+    letter-spacing:.5px;
+
+    margin-bottom:15px;
+
+}
+
+
+
+header h2{
+
+    font-size:30px;
+
+    font-weight:500;
+
+    color:#f5d77a;
+
+}
+
+
+
+header p{
+
+    margin-top:15px;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
+
+
+
+/* ===============================
+      Introduction
+================================*/
+
+.intro{
+
+    background:white;
+
+    padding:50px 20px;
+
+    text-align:center;
+
+}
+
+
+
+.intro h2{
+
+    color:#082a4a;
+
+    font-size:32px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.intro p{
+
+    max-width:850px;
+
+    margin:auto;
+
+    font-size:18px;
+
+    color:#555;
+
+}
+
+
+
+/* ===============================
+      Notes Section
+================================*/
+
+
+.notes{
+
+    padding:60px 0;
+
+}
+
+
+
+.notes h2{
+
+    text-align:center;
+
+    color:#082a4a;
+
+    font-size:34px;
+
+    margin-bottom:40px;
+
+}
+
+
+
+/* Grid */
+
+
+.grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(
+    auto-fit,
+    minmax(280px,1fr)
+    );
+
+    gap:30px;
+
+}
+
+
+
+/* PDF Cards */
+
+
+.card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 8px 25px rgba(0,0,0,.08);
+
+    border-top:
+    5px solid #c9a227;
+
+    transition:.3s ease;
+
+}
+
+
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.15);
+
+}
+
+
+
+.card h3{
+
+    color:#082a4a;
+
+    font-size:21px;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.card p{
+
+    color:#666;
+
+    min-height:55px;
+
+    margin-bottom:25px;
+
+}
+
+
+
+/* PDF Button */
+
+
+.card a{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    background:#082a4a;
+
+    color:white;
+
+    padding:12px 28px;
+
+    border-radius:30px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+
+
+.card a:hover{
+
+    background:#c9a227;
+
+    color:#082a4a;
+
+}
+
+
+
+/* ===============================
+      Footer
+================================*/
+
+
+footer{
+
+    background:#082a4a;
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px;
+
+    font-size:16px;
+
+    border-top:
+    4px solid #c9a227;
+
+}
+
+
+
+
+/* ===============================
+      Responsive Design
+================================*/
+
+
+@media(max-width:768px){
+
+
+header{
+
+    padding:50px 15px;
+
+}
+
+
+header h1{
+
+    font-size:32px;
+
+}
+
+
+header h2{
+
+    font-size:24px;
+
+}
+
+
+
+.intro h2,
+.notes h2{
+
+    font-size:26px;
+
+}
+
+
+.card{
+
+    padding:25px;
+
+}
+
+
+}
+
